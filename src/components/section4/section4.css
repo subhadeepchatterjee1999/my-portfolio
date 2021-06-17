@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+.section4-h{
+font-size:3rem;
+font-family: 'Playfair Display', serif;
+border-style:double;
+border-radius: 9999px;
+padding: 5px;
+border-color:grey;
+margin-bottom:20px;
+}
+.h-span{
+color:red;
+}
+.table{
+height:100%;
+}

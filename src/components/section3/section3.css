@@ -1,0 +1,21 @@
+.section3{
+padding:15px;
+
+}
+.h-span{
+color:red;
+}
+.section3-h{
+font-size:3rem;
+font-family: 'Playfair Display', serif;
+border-style:double;
+border-radius: 9999px;
+padding: 5px;
+border-color:grey;
+margin-bottom:20px;
+}
+
+.card{
+margin-bottom:10px;
+
+}

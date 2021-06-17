@@ -1,0 +1,227 @@
+.section1{
+background-color: #001629;
+height: 100vh;
+margin-top: 0px;
+padding: 3%;
+
+}
+
+.intro{
+
+  height: 100%;
+
+}
+.intro-right{
+  color: #C70039;
+  background-color:#49FF00;
+  background:url("./bacground.jpg");
+  padding:0px;
+  background-repeat:no-repeat;
+  background-size:cover;
+  height:100%;
+
+
+}
+.pic{
+padding:0px;
+}
+.intro-left{
+
+  font-size: 5rem;
+  border: 4px groove #C70039;
+  border-right: 0px;
+  font-weight: bold;
+  color:white;
+  align-items: center;
+}
+.animation-box {
+  width: 75%;
+  height: 15.5rem;
+  background: transparent;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.animation-container {
+  width: 1000rem;
+  height: 30rem;
+}
+
+@keyframes topFadeOut {
+  0% {
+    position: absolute;
+    top: -3rem;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    top: 25%;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes bottomFadeOut {
+  0% {
+    position: absolute;
+    bottom: -5rem;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    bottom: 25%;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+
+}
+
+@keyframes topFadeOutVertical {
+  0% {
+    position: absolute;
+    top: -3rem;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    top: 45%;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes rightFadeInOut {
+  0% {
+    position: absolute;
+    right: -3rem;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    right: 10rem;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    right: 10rem;
+  }
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+
+  45% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0%;
+  }
+}
+
+.first-text {
+  font-size: 4.4rem;
+  position: absolute;
+  left: 2.5rem;
+  top: 5rem;
+  opacity: 0;
+  animation-name: topFadeOut;
+  animation-duration: 5s;
+  color: white;
+}
+
+.second-text {
+  font-size: 3.4rem;
+  position: absolute;
+  top: 8.5rem;
+  opacity: 0;
+  animation-name: rightFadeInOut;
+  animation-delay: 3s;
+  animation-duration: 6s;
+  color: white;
+}
+
+.third-text {
+  transform: rotate(-90deg);
+  font-size: 2rem;
+  position: absolute;
+  left: 45%;
+  top: 45%;
+  opacity: 0;
+  animation-name: topFadeOutVertical;
+  animation-delay: 7.5s;
+  animation-duration: 6s;
+  color: white;
+  white-space: nowrap;
+}
+
+.fourth-text {
+  font-size: 3.4rem;
+  position: absolute;
+  top: 10.5rem;
+  left: 10%;
+  opacity: 0;
+  color: white;
+  animation-name: fadeInOut;
+  animation-delay: 8.5s;
+  animation-duration: 9s;
+}
+
+.fifth-text {
+  font-size: 4.4rem;
+  position: absolute;
+  left: 5%;
+  bottom: 25%;
+  opacity: 0;
+  color: white;
+  animation-name: bottomFadeOut;
+  animation-delay: 10s;
+  animation-duration: 9s;
+}
+@media only screen and (max-width: 1100px) {
+  .section1{
+  background-color: #001629;
+  height: auto;
+  margin-top: 0px;
+  padding: 3%;
+
+  }
+  .intro-left{
+    padding-top: 35px;
+    border: 4px groove #C70039;
+    border-bottom: 0px;
+    font-size: 5vh;
+    font-weight: bold;
+    color:white;
+    align-items: center;
+    height: 45vh;
+  }
+  .intro-right{
+    color: #C70039;
+    background-color:#49FF00;
+    background-image:url("./bacground.jpg");
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: 100% auto;
+    height: 50vh;
+
+
+  }
+}

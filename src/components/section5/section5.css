@@ -1,0 +1,43 @@
+.section5{
+margin-top: 40px;
+height: 50vh;
+}
+.arrow {
+  border: solid black;
+  border-width: 0 10px 10px 0;
+  display: inline-block;
+  padding: 3px;
+  height: 40px;
+  width: 40px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+.down{
+margin-top:5%;
+}
+@media only screen and (max-width: 600px){
+  .right {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+}
+
+.footer{
+margin-top:30px;
+background-color:#001629;
+height:auto;
+padding:15px;
+width:100%;
+}
+.f-cont{
+padding: 10px;
+border:groove 3px red;
+height:auto;
+}
+.sec5-card>.card :hover{
+background-color:white;
+color:red;
+}

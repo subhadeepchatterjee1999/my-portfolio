@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+.section2{
+padding-top: 15px;
+
+}
+.h-span{
+color:red;
+}
+.section2-h{
+font-size:3rem;
+font-family: 'Playfair Display', serif;
+border-style:double;
+border-radius: 9999px;
+padding: 5px;
+border-color:grey;
+
+}
+.list{
+
+}
+.card{
+
+padding: 5px;
+background-color:white!important;
+color:black!important;
+
+transition: background-color 2s,color 2s;
+}
+.card:hover{
+background-color:#001629!important;
+color:white!important;
+
+}
