@@ -7,7 +7,7 @@ export let projects = [
     src:"https://fb-clone-1-9bacb.web.app/"
   },
   {
-    id: 2,
+    id: 1,
     title: "A Demo Restaurant Website",
 
     description: "This a Demo Restaurant site made with HTML5, CSS and JS with MongoDB and express as backend.",
