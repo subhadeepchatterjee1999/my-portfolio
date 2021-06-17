@@ -14,7 +14,7 @@ function Section5(props) {
             </div>
           </div>
           <div className="col-lg-6 down">
-            <a href="/files/myfile.pdf" className="btn btn-success btn-lg btn-block" download="myfile.pdf"> Download Here </a>
+            <a href="https://github.com/subhadeepchatterjee1999/my-portfolio/raw/gh-pages/files/myfile.pdf" className="btn btn-success btn-lg btn-block" download> Download Here </a>
 
 
           </div>
