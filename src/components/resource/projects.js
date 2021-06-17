@@ -26,7 +26,7 @@ export let projects = [
 
     description:
       "This a personal Blog made from scratch and hosted on heroku",
-    src:"https://murmuring-ravine-69275.herokuapp.com/"
+    src:"https://protected-lake-00225.herokuapp.com/"
   },
   {
     id: 4,
